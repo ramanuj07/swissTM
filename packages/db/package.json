@@ -1,0 +1,14 @@
+{
+  "name": "@repo/db",
+  "main": "index.js",
+  "packageManager": "yarn@4.3.0",
+  "dependencies": {
+    "@prisma/client": "^5.15.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.15.0"
+  },
+  "exports": {
+    "./client": "./index.ts"
+  }
+}
